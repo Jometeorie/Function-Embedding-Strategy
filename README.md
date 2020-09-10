@@ -33,10 +33,10 @@ In addition, we provide seven files for you to easily test our proposed method i
 
 ## Implementation
 The main code of the project is in [src](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/src). Below is the functions of each file in **src**.
-* [Fat_tree.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/Fat_tree.py): It is used to generate the topology of a fat-tree.
-* [Normal_net.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/Normal_net.py): It is used to generate the topology of a mesh net.
-* [Normal_tree.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/Normal_tree.py): It is used to generate the topology of a normal tree.
-* [Process_fat_tree.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/Process_fat_tree.py): It is used to generate the details of the topology, e.g. edge matrix, functions and its CPUs that can be satisfied in each server.
-* [Methods.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/Methods.py): It provides the implementation of the three function embedding strategy. Method one is the greedy algorithm. Method two assumes that the order in which functions are satisfied has been fixed. Method three is our proposed algorithm.
-* [utils.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/utils.py): The file contains serveral functions that the three methods may need. e.g. implementation of Dijkstra, prim, DFS, ways to get the max impact factor.
-* [Topology_info.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/Topology_info.py): It implements a class that stores some information about the topology. You can save or load a topology using this class.
+* [Fat_tree.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/src/Fat_tree.py): It is used to generate the topology of a fat-tree.
+* [Normal_net.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/src/Normal_net.py): It is used to generate the topology of a mesh net.
+* [Normal_tree.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/src/Normal_tree.py): It is used to generate the topology of a normal tree.
+* [Process_fat_tree.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/src/Process_fat_tree.py): It is used to generate the details of the topology, e.g. edge matrix, functions and its CPUs that can be satisfied in each server.
+* [Methods.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/src/Methods.py): It provides the implementation of the three function embedding strategy. Method one is the greedy algorithm. Method two assumes that the order in which functions are satisfied has been fixed. Method three is our proposed algorithm.
+* [utils.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/src/utils.py): The file contains serveral functions that the three methods may need. e.g. implementation of Dijkstra, prim, DFS, ways to get the max impact factor.
+* [Topology_info.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/src/Topology_info.py): It implements a class that stores some information about the topology. You can save or load a topology using this class.
