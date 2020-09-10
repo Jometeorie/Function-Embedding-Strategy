@@ -23,13 +23,13 @@ Below is an explanation of some import hyperparameters.
 In addition, we provide seven files for you to easily test our proposed method in different topologies.
 | File Name | Number of Nodes | Number of functions per demand | Number of functions per server | Total functions | Edges |
 | --- | --- | --- | --- | --- | --- |
-| [40node-6func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/40node-6func.py) | 40 | 6 | 3 | 24 | 5-10 |
-| [40node-12func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/40node-12func.py) | 40 | 12 | 3 | 24 | 5-10 |
-| [40node-18func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/40node-18func.py) | 40 | 18 | 3 | 24 | 5-10 |
-| [40node-24func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/40node-24func.py) | 40 | 24 | 3 | 24 | 5-10 |
-| [60node-18func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/maste/60node-18func.py) | 60 | 18 | 3 | 18 | 3-10 |
-| [80node-18func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/80node-18func.py) | 80 | 18 | 3 | 18 | 3-10 |
-| [100node-18func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/100node-18func.py) | 100 | 18 | 3 | 18 | 3-10 |
+| [40node-6func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/40node-6func.py) | 40 | 6 | 3 | 24 | 5 - 10 |
+| [40node-12func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/40node-12func.py) | 40 | 12 | 3 | 24 | 5 - 10 |
+| [40node-18func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/40node-18func.py) | 40 | 18 | 3 | 24 | 5 - 10 |
+| [40node-24func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/40node-24func.py) | 40 | 24 | 3 | 24 | 5 - 10 |
+| [60node-18func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/maste/60node-18func.py) | 60 | 18 | 3 | 18 | 3 - 10 |
+| [80node-18func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/80node-18func.py) | 80 | 18 | 3 | 18 | 3 - 10 |
+| [100node-18func.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/100node-18func.py) | 100 | 18 | 3 | 18 | 3 - 10 |
 
 ## Implementation
 The main code of the project is in [src](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/src). Below is the functions of each file in **src**.
