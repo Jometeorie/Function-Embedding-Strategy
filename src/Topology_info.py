@@ -4,7 +4,7 @@ import pickle
 
 class Topo_info:
     '''
-    It is a class that store some infomation about the topology.
+    It is a class that stores some infomation about the topology.
     bandwidth_matrix: bandwidth matrix of the topology.
     distance_matrix: distance matrix of the topology.
     node list: the index of each node.
