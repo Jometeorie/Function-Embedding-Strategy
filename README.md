@@ -1,10 +1,10 @@
 # Function Embedding Strategy
 ## Introduction
-This project includes our function embedding strategy and two comparative algorithms. Algorithm 1 uses the greedy idea to select the nearest server which has unsatisfied functions. Algorithm 2 assumes that the order in which functions are satisfied has been fixed.
+This project includes our function embedding strategy and two comparative algorithms.
 
 We provide fat tree, mesh and tree topologies and allow you to modify the details of the topology.
 
-In most cases, out proposed algorithm can use a shorter distance to complete the demand.
+The proposed method is logarithm-approximate.
 
 ## Examples
 The main entrances of fat tree, mesh and tree topologies are in [combine_fat_tree.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/combine_fat_tree.py), [combine_normal_net.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/combine_normal_net.py) and [combine_normal_tree.py](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/combine_normal_net.py) respectively. However, if you want to run these files, you may need to define some hyperparameters. We provide three examples in [run_example.sh](https://github.com/frozenlalala/Function-Embedding-Strategy/blob/master/run.sh). You can use **bash run_example.sh**.
